@@ -1,0 +1,12 @@
+img {
+     width: 300px;
+     position: fixed;
+     left: 370px;
+     background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-pickle-how-to-495-1542748711.jpg?crop=0.667xw:1.00xh;0.0948xw,0&resize=480:*")
+}
+.mission {
+    color: green;
+    font-size: 200%;
+    font-family: Arial, sans-serif;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+<!--
+<ul>
+<li *ngFor="let types of type">
+{{types.name}},<br>
+{{types.from}}, <br>
+{{types.taste}},<br>
+{{types.made}},<br>
+{{types.link}}<br>
+</li>
+
+</ul>
+-->
+
+<div class="open">
+<h2>Choose a pickle type above to learn more!</h2>
+
+
+<ul>
+  <li *ngFor="let types of type"
+  (click)="choosePickle(types)">
+  {{types.name}}
+  </li>
+  
+  </ul>
+    
+    <div *ngIf="pickle">
+      <h4>  {{pickle.name}}</h4>
+      <h4>This Pickle is from: {{pickle.from}}</h4>
+      <h4>This Pickle was originally made: {{pickle.made}}</h4>
+      <h4>This Pickles taste: {{pickle.taste}}</h4>
+      <h4>Link to recipe: {{pickle.link}}</h4>
+    </div>
+  </div>
+  <br>
+    

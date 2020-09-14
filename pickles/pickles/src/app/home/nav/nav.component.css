@@ -1,0 +1,30 @@
+button {
+    position: fixed;
+   right: 100px;
+   color: green;
+   background-color: yellow;
+   font-size: 20px;
+   width: 200px;
+   border-radius: 6px;
+   box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+ img {
+     position: fixed;
+     border-radius: 10px;
+     padding: 7px;
+     width: 100px;
+
+ }
+
+ .navbar-header {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+.navbar {
+    background-color: green
+}
+
+
+
