@@ -1,11 +1,12 @@
 package com.example.pickleback.service;
 
+import com.example.pickleback.model.Types;
 import com.example.pickleback.repository.Typesrepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import java.sql.Types;
+
 @Service
 
 public class TypesServiceImpl implements TypesService {
@@ -13,7 +14,7 @@ public class TypesServiceImpl implements TypesService {
     Typesrepository typesrepository;
 
     @Override
-    public Iterable<Typesrepository> listTypes() {
+    public Iterable<Types> listTypes() {
         return typesrepository.findAll();
     }
 

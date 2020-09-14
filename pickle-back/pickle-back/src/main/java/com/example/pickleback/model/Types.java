@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "types")
 
-public class types {
+public class Types {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,7 +28,7 @@ public class types {
     @Column
     private String link;
 
-    public types() {
+    public Types() {
     }
 
     public Long getId() {

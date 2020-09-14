@@ -1,11 +1,12 @@
 package com.example.pickleback.controller;
 
+import com.example.pickleback.model.Types;
 import com.example.pickleback.service.TypesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.Types;
+
 
 @RestController
 @RequestMapping ("/types")
