@@ -17,7 +17,7 @@ public class Types {
     private String name;
 
     @Column
-    private String from;
+    private String fromm;
 
     @Column
     private String taste;
@@ -48,11 +48,11 @@ public class Types {
     }
 
     public String getFrom() {
-        return from;
+        return fromm;
     }
 
     public void setFrom(String from) {
-        this.from = from;
+        this.fromm = from;
     }
 
     public String getTaste() {
